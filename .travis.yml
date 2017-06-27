@@ -15,8 +15,8 @@ env:
   global:		
     - CATKIN_PARALLEL_TEST_JOBS=-p1		
     - ROS_PARALLEL_TEST_JOBS=-j1		
-    - BEFORE_SCRIPT='./pre_process.sh'
-    - AFTER_SCRIPT='./post_process.sh'
+      #- BEFORE_SCRIPT='./pre_process.sh'
+      #- AFTER_SCRIPT='./post_process.sh'
   matrix:		
     - ROS_DISTRO="indigo"  ROS_REPOSITORY_PATH=http://packages.ros.org/ros/ubuntu 
     - ROS_DISTRO="jade"  ROS_REPOSITORY_PATH=http://packages.ros.org/ros/ubuntu 
